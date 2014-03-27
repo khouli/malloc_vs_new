@@ -1,0 +1,28 @@
+[1] "icc new"
+ compiler       method          cycles     
+ gcc:    0   malloc:    0   Min.   : 1144  
+ icc:10000   new   :10000   1st Qu.: 1404  
+                            Median : 1527  
+                            Mean   : 1567  
+                            3rd Qu.: 1667  
+                            Max.   :19143  
+[1] "icc method"
+ compiler       method          cycles      
+ gcc:    0   malloc:10000   Min.   :  3016  
+ icc:10000   new   :    0   1st Qu.:  3634  
+                            Median :  3820  
+                            Mean   :  3949  
+                            3rd Qu.:  4032  
+                            Max.   :466521  
+
+	Welch Two Sample t-test
+
+data:  cycles[cycles$compiler == "icc" & cycles$method == "new", "cycles"] and cycles[cycles$compiler == "icc" & cycles$method == "malloc", cycles[cycles$compiler == "icc" & cycles$method == "new", "cycles"] and     "cycles"]
+t = -51.0388, df = 10088.34, p-value < 2.2e-16
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -2473.39 -2290.43
+sample estimates:
+mean of x mean of y 
+ 1567.389  3949.299 
+

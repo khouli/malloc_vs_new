@@ -1,0 +1,8 @@
+Using built-in specs.
+COLLECT_GCC=g++-4.8
+COLLECT_LTO_WRAPPER=/usr/local/Cellar/gcc48/4.8.2/libexec/gcc/x86_64-apple-darwin13.0.0/4.8.2/lto-wrapper
+Target: x86_64-apple-darwin13.0.0
+Configured with: ../configure --build=x86_64-apple-darwin13.0.0 --prefix=/usr/local/Cellar/gcc48/4.8.2 --enable-languages=c,c++,fortran,java,objc,obj-c++ --program-suffix=-4.8 --with-gmp=/usr/local/opt/gmp4 --with-mpfr=/usr/local/opt/mpfr2 --with-mpc=/usr/local/opt/libmpc08 --with-cloog=/usr/local/opt/cloog018 --with-isl=/usr/local/opt/isl011 --with-system-zlib --enable-version-specific-runtime-libs --enable-libstdcxx-time=yes --enable-stage1-checking --enable-checking=release --enable-lto --disable-werror --enable-plugin --disable-nls --with-ecj-jar=/usr/local/opt/ecj/share/java/ecj.jar --disable-multilib
+Thread model: posix
+gcc version 4.8.2 (GCC) 
+icc version 14.0.2 (gcc version 4.2.1 compatibility)
