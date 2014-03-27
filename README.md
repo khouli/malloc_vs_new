@@ -11,7 +11,7 @@ sourcing test_all.sh.
 The benchmark produces a curious result. Code produced by icc seems to
 be slower when allocating memory using malloc() compared to new.
 
-Elapsed clock cycles for allocating a 16000 elment char array:
+Elapsed clock cycles for allocating a char array with 16000 elements:
 
 ![alt text](http://i.stack.imgur.com/BKQR4.png "elapsed clock cycles for allocating array")
 
