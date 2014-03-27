@@ -13,6 +13,6 @@ be slower when allocating memory using malloc() compared to new.
 
 Elapsed clock cycles for allocating a 16000 elment char array:
 
-[id]: http://i.stack.imgur.com/BKQR4.png
+![alt text](http://i.stack.imgur.com/BKQR4.png "elapsed clock cycles for allocating array")
 
 Check the Stackoverflow question for more details.
